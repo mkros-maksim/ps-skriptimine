@@ -1,0 +1,1 @@
+﻿(Get-Process).where({$_.ProcessName -eq 'notepad'}) | Select ProcessName, Id
